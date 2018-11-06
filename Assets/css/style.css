@@ -5,10 +5,10 @@ body {
     color: #777;
     }
   
-    html,
+    /* html,
     body {
       height: 100%;
-    }
+    } */
 
     #logo:hover {
   background: #5e7f7e;
@@ -22,22 +22,34 @@ body {
   /* general */
   
   #main-container {
-    background: url("concrete_seamless.png");
+    background: url("../images/woodgrain.png");
+    padding-top: 130px;
+    padding-right: 5px;
+    padding-left: 5px;
+    min-height: calc(100vh - 70px);
     }
   
+.navbox {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
   .container {
-    width: 85%;
+    width: 80%;
     max-width: 960px;
     margin: 0 auto;
     background: #ffffff;
-    clear: both;
+    border: 2px solid #cccccc;
     }
   
   #headshot {
     border: 2px solid #cccccc;
-    width: 165px;
-    height: 200px;
-    margin: 10px;
+    width: 175px;
+    height: 215px;
+    margin: 10px 15px 10px 10px;
+     
     
     }
   
@@ -61,6 +73,7 @@ body {
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #ddd;
+    margin-top: 15px;
   }
   
   h2,
@@ -82,7 +95,7 @@ body {
   }
   
   #logo {
-    float: left;
+    float: left; 
     width: 250px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -93,6 +106,7 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    margin-left: 75px;
   }
   
   .navbar a{
@@ -123,16 +137,7 @@ body {
    
   }
 
-  
-  
-  
-  
   /* main */
-  
-  #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-  }
   
   .pics {
     width: 100%;
