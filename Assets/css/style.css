@@ -5,10 +5,7 @@ body {
     color: #777;
     }
   
-    /* html,
-    body {
-      height: 100%;
-    } */
+    
 
     #logo:hover {
   background: #5e7f7e;
@@ -207,5 +204,8 @@ font-size: 60px;
 padding-bottom: 10px;
 margin-top: -10px;
 color: #4aaaa5;
+}
 
+#connect {
+  text-align: center;
 }
