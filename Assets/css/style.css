@@ -5,7 +5,11 @@ body {
     color: #777;
     }
   
-    
+    #jonSnow { 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
     #logo:hover {
   background: #5e7f7e;
